@@ -1,7 +1,8 @@
-"""
-Main file which instantiates the Behavioral Cloning agent and trains it on the given dataset.
-The dataset is loaded in the dataloader.
-"""
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
 
 import argparse
 import logging
