@@ -1,0 +1,48 @@
+{
+    "seed": 88,
+    "algo": "bc",
+    "env_name": "miner",
+    "distribution_mode": "easy",
+    "num_levels": 200,
+    "dataset": "data/dataset.hdf5",
+    "lr": 1e-3,
+    "batch_size": 64,
+    "epochs": 10,
+    "hidden_size": 64,
+    "agent_model": "dqn",
+    "save_path": "data/bc.pt",
+    "resume": false,
+    "percentile": 1.0,
+    "deterministic": false,
+    "eval_eps": 0.001,
+    "eval_freq": 10,
+    "ckpt_freq": 10,
+    "dataset_size": 1000000,
+    "early_stop": false,
+
+    "target_update_freq": 1000,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "eps_start": 1.0,
+    "eps_end": 0.01,
+    "eps_decay": 10000000,
+    "perform_polyak_update": false,
+
+    "cql_alpha": 0.1,
+
+    "bcq_threshold": 0.1,
+
+    "iql_temperature": 0.1,
+    "iql_expectile": 0.8,
+
+    "dt_context_length": 128,
+    "grad_norm_clip": 0.1,
+    "weight_decay": 0.01,
+    "lr_decay": true,
+    "warmup_tokens": 10000,
+    "dt_rtg_noise_prob": 0.0,
+    "dt_eval_ret": 0,
+
+    "capacity_type": "transitions",
+    "threshold_metric": "median"
+}

@@ -1,0 +1,7 @@
+{
+    "grid": {
+        "per_device_train_batch_size": [1, 4, 8],
+        "learning_rate": [2e-4, 2e-5, 2e-3],
+        "image": [0,1]
+    }
+}

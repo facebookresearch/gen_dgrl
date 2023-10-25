@@ -1,0 +1,58 @@
+{
+    "grid": {
+        "algo": [
+            "bcq"
+        ],
+        "dataset_size": [
+            1000000
+        ],
+        "env_name": [
+            "bigfish", "bossfight", "caveflyer", "chaser", "climber", "coinrun", "dodgeball", "fruitbot", "heist", "jumper", "leaper", "ninja", "maze", "miner", "plunder", "starpilot"
+        ],
+        "dataset": [
+            "your_dataset_path"
+        ],
+        "lr": [
+            5e-4
+        ],
+        "batch_size": [
+            256, 512
+        ],
+        "epochs": [
+            2000
+        ],
+        "agent_model": [
+            "bcqresnetbase"
+        ],
+        "hidden_size": [
+            256
+        ],
+        "save_path": [
+            "your_checkpoint_path"
+        ],
+        "resume": [
+            true
+        ],
+        "bcq_threshold": [
+            0.01, 0.1, 0.2, 0.4, 0.6, 0.7, 0.8, 0.9
+        ],
+        "target_update_freq": [
+            100
+        ],
+        "tau": [
+            0.005
+        ],
+        "eval_eps": [
+            0.001
+        ],
+        "eval_freq":[
+            1
+        ],
+        "ckpt_freq":[
+            10
+        ],
+        "early_stop": [
+            true
+        ]
+    }
+}

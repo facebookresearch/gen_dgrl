@@ -1,0 +1,52 @@
+{
+    "grid": {
+        "algo": [
+            "bc"
+        ],
+        "dataset_size": [
+            1000000
+        ],
+        "env_name": [
+            "bigfish", "bossfight", "caveflyer", "chaser", "climber", "coinrun", "dodgeball", "fruitbot", "heist", "jumper", "leaper", "ninja", "maze", "miner", "plunder", "starpilot"
+        ],
+        "dataset": [
+            "your_dataset_path"
+        ],
+        "lr": [
+            1e-4,
+            5e-4,
+            5e-3
+        ],
+        "batch_size": [
+            256,
+            512
+        ],
+        "epochs": [
+            100
+        ],
+        "agent_model": [
+            "pporesnetbase"
+        ],
+        "hidden_size": [
+            256
+        ],
+        "save_path": [
+            "your_checkpoint_path"
+        ],
+        "resume": [
+            true
+        ],
+        "percentile": [
+            1.0
+        ],
+        "eval_freq":[
+            1
+        ],
+        "ckpt_freq":[
+            10
+        ],
+        "early_stop": [
+            true
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "grid": {
+        "algo": [
+            "bct"
+        ],
+        "dataset_size": [
+            1000000
+        ],
+        "env_name": [
+            "bigfish", "bossfight", "caveflyer", "chaser", "climber", "coinrun", "dodgeball", "fruitbot", "heist", "jumper", "leaper", "ninja", "maze", "miner", "plunder", "starpilot"
+        ],
+        "dataset": [
+            "your_final_dataset_path"
+        ],
+        "lr": [
+            5e-4
+        ],
+        "batch_size": [
+            512
+        ],
+        "epochs": [
+            50
+        ],
+        "save_path": [
+            "your_final_checkpoint_path"
+        ],
+        "resume": [
+            true
+        ],
+        "dt_context_length": [
+            30, 10
+        ],
+        "dt_eval_ret": [
+            0
+        ],
+        "eval_eps": [
+            0.0
+        ],
+        "eval_freq":[
+            1
+        ],
+        "ckpt_freq":[
+            5
+        ],
+        "early_stop": [
+            true
+        ]
+    }
+}

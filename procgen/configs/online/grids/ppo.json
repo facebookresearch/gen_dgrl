@@ -1,0 +1,25 @@
+{
+    "grid": {
+        "env_name": [
+            "bigfish", "bossfight", "caveflyer", "chaser", "climber", "coinrun", "dodgeball", "fruitbot", "heist", "jumper", "leaper", "maze", "miner", "ninja", "plunder", "starpilot"
+        ],
+        "algo": [
+            "ppo"
+        ],
+        "ppo_epoch": [
+            3
+        ],
+        "num_levels": [
+            200
+        ],
+        "resume": [
+            true
+        ],
+        "model_saving_dir": [
+            "your_checkpoint_dir"
+        ],
+        "num_env_steps": [
+            25000000
+        ]
+    }
+}

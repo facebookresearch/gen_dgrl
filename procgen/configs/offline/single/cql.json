@@ -1,0 +1,52 @@
+{
+    "grid": {
+        "algo": [
+            "cql"
+        ],
+        "env_name": [
+            "bigfish", "bossfight", "caveflyer", "chaser", "climber", "coinrun", "dodgeball", "fruitbot", "heist", "jumper", "leaper", "ninja", "maze", "miner", "plunder", "starpilot"
+        ],
+        "dataset": [
+            "your_dataset_path"
+        ],
+        "lr": [
+            5e-4
+        ],
+        "batch_size": [
+            256
+        ],
+        "epochs": [
+            1000
+        ],
+        "agent_model": [
+            "pporesnetbase"
+        ],
+        "hidden_size": [
+            256
+        ],
+        "save_path": [
+            "your_checkpoint_path"
+        ],
+        "resume": [
+            true
+        ],
+        "cql_alpha": [
+            4.0
+        ],
+        "target_update_freq": [
+            1000
+        ],
+        "tau": [
+            0.99
+        ],
+        "eval_freq":[
+            1
+        ],
+        "early_stop": [
+            true
+        ],
+        "ckpt_freq": [
+            10
+        ]
+    }
+}
