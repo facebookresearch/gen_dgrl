@@ -1,3 +1,9 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
 from offline.agents.bc import BehavioralCloning
 from offline.agents.bcq import BCQ
 from offline.agents.ddqn_cql import CQL
