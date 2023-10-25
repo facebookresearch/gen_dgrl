@@ -1,13 +1,17 @@
-# Code for "A Study of Generalization in Offline Reinforcement Learning"
+# A Study of Generalization in Offline Reinforcement Learning
 
-# Repo Structure
+Official codebase for ["A Study of Generalization in Offline Reinforcement Learning"](https://arxiv.org/).
 
-We have two folders - 1. Procgen and 2. WebShop
+By [Ishita Mediratta*](https://github.com/ishitamed19), [Qingfei You*](https://github.com/YhgzXxfz), [Minqi Jiang](https://github.com/minqi), [Roberta Raileanu](https://github.com/rraileanu). [* = Equal Contribution]
 
-Each of these subfolders uses different frameworks and libraries, hence we kept the codebase different for the sake of simplicity.
 
----
+# Repository Structure
+
+We have two sub-folders - 1. `procgen`, which provides the datasets and experimental code for running experiments in the Procgen benchmark and 2. `webShop`, which does the same for the WebShop benchmark.
+
+Each of these subfolders uses different frameworks and libraries, hence refer to the corresponding `README.md` in the subfolders.  
+
 
 # License
 
-The majority of `gen_dgrl` code is licensed under CC-BY-NC, however portions of the project are available under separate license terms: In Procgen subfolder, code for DT, PPO is licensed under the MIT license; and code for filewriter.py is licensed under the Apacke 2.0 license. In WebShop folder, most of the code is licensed under MIT license.
+The majority of `gen_dgrl` code is licensed under CC-BY-NC, however portions of the project are available under separate license terms: In `procgen` subfolder, code for DT, PPO is licensed under the MIT license; and code for `filewriter.py` is licensed under the Apache 2.0 license. The `webShop` code is licensed under MIT license (see [webshop_LICENSE.md](./webShop/webshop_LICENSE.md)).
