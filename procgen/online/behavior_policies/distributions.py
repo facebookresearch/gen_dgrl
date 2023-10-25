@@ -7,7 +7,7 @@
 #     https://opensource.org/licenses/MIT
 #
 # This file is a modified version of:
-# https://github.com/rraileanu/auto-drac/blob/master/ucb_rl2_meta/arguments.py
+# https://github.com/rraileanu/idaac/blob/main/ppo_daac_idaac/distributions.py
 
 import torch
 import torch.nn as nn
