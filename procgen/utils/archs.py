@@ -1,6 +1,15 @@
-"""
-This file contains implementation of various encoding architectures made of MLPs, CNNs, Transformers, etc.
-"""
+# Copyright (c) 2017 Ilya Kostrikov
+# 
+# Licensed under the MIT License;
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://opensource.org/licenses/MIT
+#
+# This file is a modified version of:
+# https://github.com/rraileanu/idaac/blob/main/ppo_daac_idaac/model.py
+#
+# Copyright (c) Meta Platforms, Inc. and affiliates
 
 import torch
 import torch.nn as nn
