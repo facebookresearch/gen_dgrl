@@ -12,7 +12,7 @@ We have two sub-folders:
 - **procgen**: Provides the datasets and experimental code for running experiments in the Procgen benchmark.
 - **webShop**: Provides similar resources for the WebShop benchmark.
 
-Each of these subfolders utilizes different frameworks and libraries. Therefore, please refer to the corresponding `README.md` in the respective subfolders for more information on how to setup the code, download the necessary datasets and train or test different methods.
+Each of these subfolders utilizes different frameworks and libraries. Therefore, please refer to the corresponding `README.md` in the respective subfolders for more information on how to setup the code, download the necessary datasets, and train or test different methods.
 
 
 # License
