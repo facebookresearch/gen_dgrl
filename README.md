@@ -7,9 +7,12 @@ By [Ishita Mediratta*](https://github.com/ishitamed19), [Qingfei You*](https://g
 
 # Repository Structure
 
-We have two sub-folders - 1. `procgen`, which provides the datasets and experimental code for running experiments in the Procgen benchmark and 2. `webShop`, which does the same for the WebShop benchmark.
+We have two sub-folders:
 
-Each of these subfolders uses different frameworks and libraries, hence refer to the corresponding `README.md` in the subfolders.  
+- **procgen**: Provides the datasets and experimental code for running experiments in the Procgen benchmark.
+- **webShop**: Provides similar resources for the WebShop benchmark.
+
+Each of these subfolders utilizes different frameworks and libraries. Therefore, please refer to the corresponding `README.md` in the respective subfolders for more information on how to setup the code, download the necessary datasets and train or test different methods.
 
 
 # License
