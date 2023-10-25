@@ -14,4 +14,4 @@ Each of these subfolders uses different frameworks and libraries, hence refer to
 
 # License
 
-The majority of `gen_dgrl` code is licensed under CC-BY-NC, however portions of the project are available under separate license terms: In `procgen` subfolder, code for DT, PPO is licensed under the MIT license; and code for `filewriter.py` is licensed under the Apache 2.0 license. The `webShop` code is licensed under MIT license (see [webshop_LICENSE.md](./webShop/webshop_LICENSE.md)).
+The majority of `gen_dgrl` code is licensed under CC-BY-NC, however portions of the project are available under separate license terms: In `procgen` subfolder, code for `DT` and `online` is licensed under the MIT license. The majority of `webShop` code is licensed under MIT license (see [webshop_LICENSE.md](./webShop/webshop_LICENSE.md)), with `train_choice_[il,bcq,cql].py` files licensed under Apache 2.0 license.
