@@ -3,6 +3,9 @@
 #
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
+# 
+# This file is a modified version of:
+# https://github.com/facebookresearch/level-replay/blob/main/level_replay/envs.py
 
 import procgen
 import torch
