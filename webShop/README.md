@@ -28,6 +28,7 @@ This repository has been modified from the orginal source code of WebShop on [Gi
 ```sh
 > conda create -n webshop python=3.8.13
 > conda activate webshop
+> pip install Flask==2.1.2
 ```
 5. Install requirements into the `webshop` virtual environment via the `setup.sh` script
 ```sh
