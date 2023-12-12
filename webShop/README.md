@@ -1,6 +1,6 @@
-# Code for "A Study of Generalization in Offline Reinforcement Learning" - WebShop
+# Code for "The Generalization Gap in Offline Reinforcement Learning" - WebShop
 
-This repository has been modified from the orginal source code of WebShop on [GitHub](https://github.com/princeton-nlp/WebShop) with some additional files added to run the experiments for our **paper "A Study of Generalization in Offline Reinforcement Learning".**
+This repository has been modified from the orginal source code of WebShop on [GitHub](https://github.com/princeton-nlp/WebShop) with some additional files added to run the experiments for our **paper "The Generalization Gap in Offline Reinforcement Learning".**
 
 **[WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://webshop-pnlp.github.io/)**  
 [Shunyu Yao*](https://ysymyth.github.io/), [Howard Chen*](https://howard50b.github.io/), [John Yang](https://john-b-yang.github.io/), [Karthik Narasimhan](https://www.cs.princeton.edu/~karthikn/)
