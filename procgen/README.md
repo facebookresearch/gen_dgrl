@@ -1,4 +1,4 @@
-# Code for "A Study of Generalization in Offline Reinforcement Learning"- Procgen
+# Code for "The Generalization Gap in Offline Reinforcement Learning"- Procgen
 
 
 ## Setup
