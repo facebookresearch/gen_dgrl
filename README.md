@@ -4,6 +4,16 @@ Official codebase for ["The Generalization Gap in Offline Reinforcement Learning
 
 By [Ishita Mediratta*](https://github.com/ishitamed19), [Qingfei You*](https://github.com/YhgzXxfz), [Minqi Jiang](https://github.com/minqi), [Roberta Raileanu](https://github.com/rraileanu). [* = Equal Contribution]
 
+```
+@misc{mediratta2023generalization,
+      title={The Generalization Gap in Offline Reinforcement Learning}, 
+      author={Ishita Mediratta and Qingfei You and Minqi Jiang and Roberta Raileanu},
+      year={2023},
+      eprint={2312.05742},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 # Repository Structure
 
