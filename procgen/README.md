@@ -29,9 +29,13 @@ if there's a numpy issue, try downgrading to version < 1.24: `pip install -U num
 ## Download The Data Set
 
 ### ProcGen
-We provide 3 data sets collected by pre-trained online policy (PPO):
-- [expert_data_1M](https://we.tl/t-XWjZXhMjgi): contains 1 million state-action transitions for each of the 16 games. Data is collected by the final PPO checkpoint.
-- [suboptimal_data_1M](https://we.tl/t-1ifYu8RFDR): contains 1 million state-action transitions for each of the 16 games. Data is collected by PPO checkpoints so that the average performance of this dataset is 75% of that of the expert_dataset_1M.
+To download, use file `download.py`. Using appropriate arguments, you can download the dataset you need. You can comment out the env names if you need to download data for specific games only.
+
+We provide all datasets used in our paper, collected by pre-trained online policy (PPO):
+- [expert_data_1M]: contains 1 million state-action transitions for each of the 16 games. Data is collected by the final PPO checkpoint.
+- [expert_data_10M]: contains 10 million state-action transitions for each of the 16 games. Data is collected by the final PPO checkpoint.
+- [mixed expert-suboptimal_data_1M]: contains 1 million state-action transitions for each of the 16 games. Data is collected by PPO checkpoints so that the average performance of this dataset is 75% of that of the expert_dataset_1M.
+- [suboptimal_data_25M]: contains 25 million state-action transitions for each of the 16 games. Data is collected by using the entire training log of PPO.
 
 The decompressed folders contain trajectories grouped by 16 games. Each trajectory is stored as a `.npy` file.
 
