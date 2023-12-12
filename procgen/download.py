@@ -132,7 +132,7 @@ def build_arg_parser(
         "--category_name",
         type=str,
         required=True,
-        choices=["1M_E", "1M_S", "10M", "25M"],
+        choices=["1M_E", "1M_S", "10M", "25M","level_1_S","level_1_E","level_40_S","level_40_E"],
         help="Category name for Procgen environment, based on number of transitions: "
         + "1M, 10M, and 25M. Only data of 1M transitions has expert (E) and suboptimal (S) option.",
     )
@@ -165,9 +165,14 @@ def build_arg_parser(
 
 
 def _build_urls_with_category_name(category_name: str) -> tp.List[str]:
-    return [
-        os.path.join(BASE_URL, _convert_category_name(category_name), f"{env_name}.tar.xz") for env_name in ENV_NAMES
-    ]
+    if category_name in ["level_1_E", "level_1_S", "level_40_E", "level_40_S"]:
+        return [
+            os.path.join(BASE_URL, _convert_category_name(category_name))
+        ]
+    else:
+        return [
+            os.path.join(BASE_URL, _convert_category_name(category_name), f"{env_name}.tar.xz") for env_name in ENV_NAMES
+        ]
 
 
 def _convert_category_name(category_name: str) -> str:
@@ -179,6 +184,14 @@ def _convert_category_name(category_name: str) -> str:
         return "10M"
     elif category_name == "25M":
         return "25M"
+    elif category_name == "level_1_S":
+        return "100k_procgen_dataset_1_suboptimal.tar"
+    elif category_name == "level_40_S":
+        return "100k_procgen_dataset_40_suboptimal.tar"
+    elif category_name == "level_1_E":
+        return "100k_procgen_dataset_1.tar"
+    elif category_name == "level_40_E":
+        return "100k_procgen_dataset_40.tar"
     else:
         raise ValueError(f"Unrecognized category name {category_name}!")
 
