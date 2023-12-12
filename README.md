@@ -1,6 +1,6 @@
-# A Study of Generalization in Offline Reinforcement Learning
+# The Generalization Gap in Offline Reinforcement Learning
 
-Official codebase for ["A Study of Generalization in Offline Reinforcement Learning"](https://arxiv.org/).
+Official codebase for ["The Generalization Gap in Offline Reinforcement Learning"](https://arxiv.org/abs/2312.05742).
 
 By [Ishita Mediratta*](https://github.com/ishitamed19), [Qingfei You*](https://github.com/YhgzXxfz), [Minqi Jiang](https://github.com/minqi), [Roberta Raileanu](https://github.com/rraileanu). [* = Equal Contribution]
 
@@ -13,7 +13,6 @@ We have two sub-folders:
 - **webShop**: Provides similar resources for the WebShop benchmark.
 
 Each of these subfolders utilizes different frameworks and libraries. Therefore, please refer to the corresponding `README.md` in the respective subfolders for more information on how to setup the code, download the necessary datasets, and train or test different methods.
-
 
 # License
 
