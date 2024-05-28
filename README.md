@@ -6,12 +6,12 @@ By [Ishita Mediratta*](https://github.com/ishitamed19), [Qingfei You*](https://g
 
 ```
 @inproceedings{
-mediratta2024gengap,
-title={The Generalization Gap in Offline Reinforcement Learning},
-author={Ishita Mediratta and Qingfei You and Minqi Jiang and Roberta Raileanu},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=3w6xuXDOdY}
+  mediratta2024gengap,
+  title={The Generalization Gap in Offline Reinforcement Learning},
+  author={Ishita Mediratta and Qingfei You and Minqi Jiang and Roberta Raileanu},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=3w6xuXDOdY}
 }
 ```
 
